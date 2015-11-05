@@ -34,6 +34,16 @@ div p
 	background-color: #33CC33;
 	top:75px;
 }
+#buttonthree
+{
+	top:140px;
+	background-color: #6B00B3;
+}
+#buttonfour
+{
+	top:205px;
+	background-color: #FF0606;
+}
 .button p
 {
 	font-size:20px;
