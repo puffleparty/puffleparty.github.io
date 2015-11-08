@@ -16,14 +16,16 @@ div p
 
 .button
 {
-	position: fixed; 
-	display: table-cell; 
-	top: 10px; 
-	left: 1.25%; 
-	height: 55px; 
-	width: 12%; 
-	border:2px solid black; 
+	position: fixed;
+	display: table-cell;
+	top: 10px;
+	left: 1.25%;
+	height: 55px;
+	width: 12%;
+	border:2px solid black;
+  border-radius: 1000px;
 }
+
 #buttonone
 {
 	top: 10px;
@@ -48,7 +50,7 @@ div p
 {
 	font-size:20px;
 	text-align:center;
-	
+
 }
 .sides
 {
