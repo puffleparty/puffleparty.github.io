@@ -7,15 +7,12 @@ body
 body > div{
   opacity: 1;
 }
-/*
-.fb-like
+
+.socialbox
 {
-  height: 500px;
-  z-index: 1;
-  display: inline-block;
-  width:500px;
+  background-color: white;
 }
-*/
+
 .textcontainer
 {
   position:fixed;
