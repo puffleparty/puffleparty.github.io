@@ -1,27 +1,49 @@
+body
+{
+  background-image: url("background.jpe");
+  opacity: 0.8;
+}
+
+body > div{
+  opacity: 1;
+}
+/*
+.fb-like
+{
+  height: 500px;
+  z-index: 1;
+  display: inline-block;
+  width:500px;
+}
+*/
 .textcontainer
 {
-    position:fixed;
-    top: -6%;
-    left: 15%;
+  position:fixed;
+  top: -6%;
+  left: 15%;
 	height:110%;
 	width:72%;
 	background-color:#0066FF;
 }
 
+div h1
+{
+  font-size: 3em;
+  color:#000000;
+}
 div p
 {
-  font-size: 50px;
+  font-size:1.5em;
   color:#000000;
 }
 
 .button
 {
 	position: fixed;
-	display: table-cell;
-	top: 10px;
-	left: 1.25%;
-	height: 55px;
-	width: 12%;
+  text-align: center;
+  left: 1.25%;
+	height: 8.75%;
+  width: 12%;
 	border:2px solid black;
   border-radius: 1000px;
 }
@@ -46,11 +68,24 @@ div p
 	top:205px;
 	background-color: #FF0606;
 }
+#buttonfive
+{
+  top: 270px;
+  background-color: #E67300;
+}
 .button p
 {
-	font-size:20px;
-	text-align:center;
-
+  font-size: 1.1em;
+}
+.bottom
+{
+  background-color: #002966;
+  position: fixed;
+  bottom:0px;
+  left:15%;
+  width:72%;
+  height:15%;
+  z-index: 1;
 }
 .sides
 {

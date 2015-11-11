@@ -6,37 +6,52 @@
 	    <!-- <link rel="shortcut icon" href="logo.ico"> -->
   </head>
   <body>
-	<div class="sides" id="left-side">
-	</div>
-	<div class="sides" id="right-side">
-	</div>
-	
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+  <div class="sides" id="left-side">
+  </div>
+  <div class="sides" id="right-side">
+  </div>
+  <div class="bottom">
+  </div>
+
+
 	<a href="index.html">
 	<div class="button" id="buttonone">
 		<p> Home Page </p>
 	</div>
 	</a>
-	
+
 	<a href= "economy.html">
 	<div class="button" id="buttontwo">
 	<p> Economy </p>
 	</div>
 	</a>
-	
+
 	<a href="foreign.html">
 	<div class="button" id="buttonthree">
 	<p> Foreign Policy </p>
 	</div>
 	</a>
-	
+
 	<a href="health.html">
 	<div class="button" id="buttonfour">
 	<p> Healthcare </p>
 	</div>
 	</a>
-	
+
 	<div class="textcontainer">
-		<p> Hello World! </p>
+		<h1> Puffle Party Of Canada</h1>
+    <p> </p>
+    <div class="fb-like" data-href="https://www.facebook.com/Puffle-Party-Of-Canada-1011516932245083/timeline" data-width="75px" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+
 	</div>
   </body>
 </html>
