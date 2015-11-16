@@ -2,6 +2,7 @@ body
 {
   background-image: url("background.jpe");
   opacity: 0.8;
+  background-color: #1a75ff;
 }
 
 body > div{
@@ -9,6 +10,9 @@ body > div{
 }
 
 .tab { margin-left: 40px; }
+.tab-{ margin-left: 20px; }
+
+
 
 .socialbox
 {
@@ -19,23 +23,27 @@ body > div{
 
 .textcontainer
 {
-  position:fixed;
-  top: -6%;
-  left: 15%;
-	height:110%;
-	width:72%;
-	background-color:#0066FF;
+  position:relative;
+  top:-2em;
+  left: 14.55%;
+	width:72.75%;
+  height:100%;
+	background-color:#1a75ff;
 }
 
 div h1
 {
   font-size: 3em;
-  color:#FF5400;
+  color:black;
 }
 div p
 {
   font-size:1.5em;
   color:#000000;
+}
+div e
+{
+  font-size: 1.55em;
 }
 
 .button
@@ -47,58 +55,55 @@ div p
   width: 12%;
 	border:2px solid black;
   border-radius: 1000px;
+  	background-color:#0066FF;
 }
 
 #buttonone
 {
 	top: 10px;
-	background-color:#0066FF;
 }
 #buttontwo
 {
-	background-color: #33CC33;
-	top:75px;
+  top: 75px;
 }
 #buttonthree
 {
 	top:140px;
-	background-color: #6B00B3;
 }
 #buttonfour
 {
 	top:205px;
-	background-color: #FF0606;
 }
 #buttonfive
 {
   top: 270px;
-  background-color: #E67300;
 }
-.button p
-{
-  font-size: 1.1em;
-}
+.button p{ font-size: 1.1em; }
 .bottom
 {
   background-color: #002966;
-  position: fixed;
-  bottom:0px;
-  left:15%;
-  width:72%;
-  height:15%;
+  position: relative;
+  height:80px;
+  width:100%;
   z-index: 1;
+}
+.bottom2
+{
+  background-color: black;
+  position: fixed;
+  height:6%;
+  width: 105%;
+  bottom:0px;
+  left:-2%;
+  z-index: 2;
 }
 .sides
 {
 	position:fixed;
 	top:0px;
 	width:15%;
-	height:100%;
+	height:94.5%;
 	background-color:#6E6D79;
 }
-#left-side{
-	left:0px;
-}
-#right-side{
-	right: -1.9%;
-}
+#left-side {left:   0px; }
+#right-side{right: -1.9%;}
